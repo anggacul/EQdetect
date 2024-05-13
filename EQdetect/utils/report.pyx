@@ -4,7 +4,7 @@ import asyncio, requests
 asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 async def send_msg(pesan):
-    bot = telegram.Bot(token='5298253276:AAEThCM6SPGQvNS4uM4NjCDNh44oh_07QBU')
+    bot = telegram.Bot(token='')
     await bot.send_message(chat_id=-1001775156336, text=pesan)
 
 async def pushsimap(data):
